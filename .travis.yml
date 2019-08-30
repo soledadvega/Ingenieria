@@ -1,8 +1,8 @@
-language:python
+language: python
 python:
   -"3.7"
   # con m and to install dependencias
-  install:"pip install --usser coverage"
+  install: "pip install --usser coverage"
   # com m and to run tests
   script:
     -coverage run test.py
