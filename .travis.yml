@@ -1,9 +1,9 @@
 language: python
-python: "3.7"
+python: "3.6"
 # con m and to install dependencias
 install: "pip install coverage"
 install: "pip install mock"
 # com m and to run tests
 script:
--coverage run testing/testing_varios/test.py
--coverage report
+- coverage run testing/testing_varios/test.py
+- coverage report
