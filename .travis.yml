@@ -6,5 +6,5 @@ install:
 - "pip install mock"
 # com m and to run tests
 script:
-- coverage run testing/testing_varios/test.py
+- coverage run testing_varios/test_sut.py
 - coverage report
